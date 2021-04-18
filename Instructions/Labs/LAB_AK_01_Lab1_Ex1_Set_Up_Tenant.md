@@ -217,7 +217,7 @@ Each user is a key member of your pilot project team. While their user accounts 
 
     Select the key icon for **Alex Wilber**.
 
-11. In the **Reset password** pane for Alex, select **Let me create the password**, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
+11. In the **Reset password** pane for Alex, unselect (remove the checkbox next to) **Automatically create a password**, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
 
 12. Select **Reset** and then select **Close**.
 
@@ -231,35 +231,31 @@ Each user is a key member of your pilot project team. While their user accounts 
 
 17. In the **Set up the basics** pane, enter **Sales Group** in the **Name** field. You must select the **Description** field to enable the **Next** button. Leave the **Description** field blank and select **Next**. 
 
-18. In the **Assign owners** pane, enter **Joni** in the **Owners** field. A list of users whose name starts with Joni will appear; select **Joni Sherman** and then select **Next**.
+18. In the **Assign owners** pane, select **+Add Owners** and enter **Joni** in the **Owners** field. A list of users whose name starts with Joni will appear; select **Joni Sherman** and then select **Next**.
 
-19. In the **Edit settings** pane, enter **salesgroup** in the **Group email address** field (Note: the domain should be the xxxxxZZZZZZ.onmicrosoft.com domain, which you should have verified in a prior task is the default domain for Adatum). <br/>
+19. In the **Members** window for the Sales Group, select the **+Add members** button.
 
-	Under the **Privacy** section, select the **Public – Anyone can see group content** option (even if this option is selected by default, select it again to enable the **Next** button), and leave the **Create a team for this group** check box selected. Select **Next**.
+20. In the list of users that appears, select **Alex Wilber, Joni Sherman**, and **Lynne Robbins**, select the **Add (3)** button, and then select the **Next** button.
 
-20. In the **Review and finish adding group** pane, review your selections. If anything needs to be corrected, select the corresponding **Edit** option. When everything is correct, select **Create group**.
+21. In the **Edit settings** pane, enter **salesgroup** in the **Group email address** field (Note: the domain should be the xxxxxZZZZZZ.onmicrosoft.com domain, which you should have verified in a prior task is the default domain for Adatum). <br/>
 
-21. Once the group is created, select the **Close** button on the **New group created** window.
+	Under the **Privacy** section, select the **Public** option (even if this option is selected by default, select it again to enable the **Next** button), and leave the **Create a team for this group** check box selected. Select **Next**.
 
-22. This will return you to the **Groups** window. You may need to select the **Refresh** option on the menu bar for the **Sales Group** to appear in the list of groups. In fact, you may have to wait a few minutes for the Sales Group to appear, so you may need to select the **Refresh** option on the menu bar once or twice.
+22. In the **Review and finish adding group** pane, review your selections. If anything needs to be corrected, select the corresponding **Edit** option. When everything is correct, select **Create group**.
 
-23. Once the **Sales Group** appears in the list of groups, select it.
+23. Once the group is created, select the **Close** button on the **New group created** window.
 
-24. In the **Sales Group** pane that appears, the **General** tab is displayed by default. Select the **Members** tab.
+24. This will return you to the **Groups** window. You may need to select the **Refresh** option on the menu bar for the **Sales Group** to appear in the list of groups. In fact, you may have to wait a few minutes for the Sales Group to appear, so you may need to select the **Refresh** option on the menu bar once or twice.
 
-25. In the **Members** tab, under the **Owners** section, Joni Sherman should appear as the only group owner. Under the **Members** section, select **View all and manage members**.
+25. Once the **Sales Group** appears in the list of groups, select it.
 
-26. In the **View members** window for the Sales Group, select the **+Add members** button.
+26. In the **Sales Group** pane that appears, the **General** tab is displayed by default. Select the **Members** tab.
 
-27. In the list of users that appears, select **Alex Wilber, Joni Sherman**, and **Lynne Robbins**, select the **Save** button, and then select the **Close** button to finish the add process. <br/>
+27. In the **Members** tab, under the **Owners** section, Joni Sherman should appear as the only group owner. Under the **Members** section **Alex Wilber, Joni Sherman**, and **Lynne Robbins** should appears as members, if not adjust the owner and members as needed.
 
-	**Note:** You will not add Patti Fernandez to this group. Patti's key role in the pilot project is to test the Privileged Identity Management functionality in the next lab exercise. 
+28. Close the **Sales Group** pane by selecting the **X** in the upper right-hand corner.
 
-28. The **Sales Group** window now displays the three members of the group. Select **Close**.
-
-29. Close the **Sales Group** pane by selecting the **X** in the upper right-hand corner.
-
-30. Leave the **Microsoft 365 admin center** tab open in your browser and proceed to the next task.
+29. Leave the **Microsoft 365 admin center** tab open in your browser and proceed to the next task.
 
 
 ### ‎Task 5 - Enable IRM for SharePoint Online 
@@ -301,8 +297,6 @@ In Lab 3, you will create Alert Policies using the Security and Compliance Cente
 
 	**Note:** It may take several minutes for the setting to be updated, at which time the **Security &amp; Compliance** dialog box will disappear.
 
-5. Leave the Client 1 VM and the Security and Compliance Center open and proceed to the next lab.
-
 
 ### Task 7 – Prepare Users for Content Searches
 
@@ -318,16 +312,18 @@ In Module 8, you will perform a Content Search lab that requires that Joni Sherm
 
 5. In the **eDiscovery Manager** pane that appears, scroll down to the **eDiscovery Manager** section and select **Edit**.
 
-6. The **Editing Choose eDiscovery Manager** wizard opens. The list of users who are assigned this role should be empty. Select **Choose eDiscovery Manager**.
+6. In the **Editing Role group name** page, under the **Edit role group** navigation pane, select **Choose eDiscovery Manager**.
 
-7. In the **Choose eDiscovery Manager window**, select **(+) Add**.
+7. The **Editing Choose eDiscovery Manager** page opens. The list of users who are assigned this role should be empty. Select **Choose eDiscovery Manager**.
 
-8. In the list of users that’s displayed, select **Joni Sherman** and **Holly Dickson**, select **Add**, and then select **Done**. 
+8. In the **Choose eDiscovery Manager window**, select **(+) Add**.
 
-9. In the **Editing Choose eDiscovery Manager** window, select **Save**.
+9. In the list of users that’s displayed, select **Joni Sherman** and **Holly Dickson**, select **Add**, and then select **Done**. 
 
-10. In the **eDiscovery Manager** window, select **Close**.
+10. In the **Editing Choose eDiscovery Manager** window, select **Save**.
 
-11. Leave your browser open and do not close any of the tabs.
+11. In the **eDiscovery Manager** window, select **Close**.
+
+12. Leave your browser open and do not close any of the tabs.
 
 # End of Lab 1
