@@ -32,7 +32,7 @@ In this exercise, you will send an email from Holly Dickson to one of your pilot
 
 9. In the browser tab in which you are signed out, enter the following URL in the address bar: **https://outlook.office365.com**
 
-10. You want to sign into **Outlook on the web** as **Lynne Robbins.** In the **Pick an account** window, select Lynne Robbins' user account (**LynnR@xxxxxZZZZZZ.onmicrosoft.com**).
+10. You want to sign into **Outlook on the web** as **Lynne Robbins.** In the **Pick an account** window, select Lynne Robbins' user account (**LynneR@xxxxxZZZZZZ.onmicrosoft.com**).
 
 11. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.
 
