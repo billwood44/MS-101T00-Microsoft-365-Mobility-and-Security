@@ -54,7 +54,7 @@ In the prior task, you configured an alert that will notify Lynne Robbins when F
 
 1. You should still be logged into the Client 1 VM (LON-CL1) as the **Admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
-2. In your Edge browser, select the **Microsoft 365 admin center** tab, and then in the left-hand navigation pane, under the **Admin centers** group, select **Exchange**. This opens the Exchange admin center for Exchange Online.
+2. In your Edge browser, select the **Microsoft 365 admin center** tab, and then in the left-hand navigation pane, under the **Admin centers** group, select **Exchange**. This opens the Exchange admin center for Exchange Online. To perform this task you must switch to the Classic Exchange admin center, to do this select **Classic Exchange admin center** from the bottom of the left navigation pane.
 
 3. In the **Exchange admin center**, in the left-hand navigation pane, select **recipients**. 
 
